@@ -162,6 +162,10 @@ footer {
   max-width: 50%;
   max-height: 25%;
 }
+.section--5 img {
+  max-width: 50%;
+  max-height: 25%;
+}
 .section--5 span
 {
   font-weight: 600;  
