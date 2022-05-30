@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navig container">
+      <div class="nav-brand">I am a Developer</div>
+      <ul class="non-bull nav-pills">
+        <li class="list-inline">
+          <a class="links" href="index.html">Home</a>
+        </li>
+        <li class="list-inline">
+          <a class="links" href="projects.html">Projects</a>
+        </li>
+        <li class="list-inline">
+          <a class="links active" href="blogs.html">Blogs</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="main-container">
+      <p class="head">
+        In Javascript 'this' keyword refers to object and it works differently
+        compared to other languages
+      </p>
+     
+      <p class="head">
+        Some different variantions how 'this' work in javascript
+      </p>
+     
+      <div class="ullist">
+        <p>This keyword works differently in strict and unstrict word.</p>
+        <ol>
+          <li>this keyword in method.</li>
+          <li>arrow function in object.</li>
+          <li>this keyword in arrow function which present in method.</li>
+          <li>this keyword inside function and function is in method.</li>
+        </ol>
+      </div>
+
+      <div class="section--1">
+        <h3>This keyword in method</h3>
+        <p>
+          Here this keyword refers to current object which is x1 and here it
+          works normally
+        </p>
+        <img src="Images/blog1.png" alt="" />
+        <p>Output</p>
+        <img src="Images/output1.png" alt="" />
+      </div>
+
+      <div class="section--2">
+        <h3>Arrow function in object</h3>
+        <p>
+          In arrow function this keyword doesn't work because it was not there
+          in it's variable environment and it always refer to it parent scope
+          which is window object in this case
+        </p>
+        <img src="Images/blog2.png" alt="" />
+        <p>Output</p>
+        <img src="Images/output2.png" alt="" />
+      </div>
+
+      <div class="section--3">
+        <h3>This keyword in arrow function which present in method</h3>
+        <p>
+          Here the arrow function is present in inside a method and it parent
+          scope is which has this keyword pointing to object variables
+          so it takes that reference and use it
+        </p>
+        <img src="Images/blog3.png" alt="" />
+        <p>Output</p>
+        <img src="Images/output3.png" alt="" />
+      </div>
+      <div class="section--4">
+        <h3>this keyword inside function and function is in method</h3>
+        <p>
+          In normal function calls this keyword will point to window object in
+          our code birthdate() is a normal function call
+        </p>
+        <img src="Images/blog4.png" alt="" />
+        <p>Output</p>
+        <img src="Images/output4.png" alt="" />
+      </div>
+      </div>
+    </div>
+    <script src="thisKeyword_blog4.js"></script>
+  </body>
+</html>

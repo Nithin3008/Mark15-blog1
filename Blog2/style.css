@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600&display=swap');
+:root {
+    --prim-col: #ea580c;
+    --dark-grey: #6b7280;
+    --off-white: #f3f4f6;
+  }
+  
+  body
+  {
+    font-family: 'Work Sans', sans-serif;
+
+  }
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .containerCen {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .links {
+    text-decoration: none;
+  }
+  
+  .prim-link {
+    background-color: var(--prim-col);
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.4rem;
+    margin-right: 0.3rem;
+  }
+  
+  .sec-link {
+    color: var(--prim-col);
+    border-radius: 0.5rem;
+    border: 1px solid var(--prim-col);
+    padding: 0.4rem;
+  }
+  
+  .non-bull {
+    list-style: none;
+  }
+  
+  .list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+  }
+  
+  .navig {
+    background-color: var(--prim-col);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+  
+  .navig .nav-brand {
+    font-weight: bold;
+  }
+  
+  .navig .nav-pills {
+    text-align: right;
+  }
+  
+  .navig .active {
+    font-weight: bold;
+  }
+  
+  .navig .links {
+    color: white;
+  }
+h1,h2
+{
+    text-align: center;
+}
+
+.section
+{
+    margin-left: 3rem;
+}
+span
+{
+    font-size: larger;
+    font-weight: 600;
+}
+img
+{
+    max-width: 40%;
+    max-height: 25%;
+    
+}
+.img-group
+{
+    text-align: center;
+}
