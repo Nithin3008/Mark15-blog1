@@ -142,7 +142,8 @@ footer {
 .section--1,
 .section--2,
 .section--3,
-.section--4 {
+.section--4,
+.section--5 {
   margin-left: 5rem;
 }
 .section--1 img {
@@ -160,4 +161,8 @@ footer {
 .section--4 img {
   max-width: 50%;
   max-height: 25%;
+}
+.section--5 span
+{
+  font-weight: 600;  
 }
